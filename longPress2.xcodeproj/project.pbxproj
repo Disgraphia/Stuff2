@@ -38,21 +38,21 @@
 		3F90FCA815B712A30061080B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3F90FCAA15B712A40061080B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3F90FCAC15B712A40061080B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3F90FCB015B712A40061080B /* longPress2-Info.plist */ = {isa = PBXFileReference; path = "longPress2-Info.plist"; sourceTree = "<group>"; };
+		3F90FCB015B712A40061080B /* longPress2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "longPress2-Info.plist"; sourceTree = "<group>"; };
 		3F90FCB215B712A40061080B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F90FCB415B712A40061080B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3F90FCB615B712A40061080B /* longPress2-Prefix.pch */ = {isa = PBXFileReference; path = "longPress2-Prefix.pch"; sourceTree = "<group>"; };
-		3F90FCB715B712A40061080B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F90FCB615B712A40061080B /* longPress2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "longPress2-Prefix.pch"; sourceTree = "<group>"; };
+		3F90FCB715B712A40061080B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3F90FCB815B712A40061080B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3F90FCBB15B712A40061080B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		3F90FCBE15B712A40061080B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		3F90FCC015B712A40061080B /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		3F90FCC015B712A40061080B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3F90FCC115B712A40061080B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3F90FCC815B712A40061080B /* longPress2Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = longPress2Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F90FCC915B712A40061080B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		3F90FCD115B712A50061080B /* longPress2Tests-Info.plist */ = {isa = PBXFileReference; path = "longPress2Tests-Info.plist"; sourceTree = "<group>"; };
+		3F90FCD115B712A50061080B /* longPress2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "longPress2Tests-Info.plist"; sourceTree = "<group>"; };
 		3F90FCD315B712A50061080B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3F90FCD515B712A50061080B /* longPress2Tests.h */ = {isa = PBXFileReference; path = longPress2Tests.h; sourceTree = "<group>"; };
+		3F90FCD515B712A50061080B /* longPress2Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = longPress2Tests.h; sourceTree = "<group>"; };
 		3F90FCD615B712A50061080B /* longPress2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = longPress2Tests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

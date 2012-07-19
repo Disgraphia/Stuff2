@@ -14,14 +14,16 @@
 
 @implementation ViewController
 
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	// Do any additional setup after loading the view, typically from a nib
 }
 
 - (void)viewDidUnload
 {
+    
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -35,4 +37,20 @@
     }
 }
 
+-(void)movePlayer:(id)sender {
+    x = x + 1;
+    NSLog(@"X = %f", x);
+}
+
+- (IBAction)buttonEnd:(id)sender {
+    
+    if (timer != nil) 
+        [timer invalidate];
+    timer = nil;
+
+}
+
+- (IBAction)buttonBegan:(id)sender {
+    timer = [NSTimer scheduledTimerWithTimeInterval:0.3 target:self selector:@selector(movePlayer:) userInfo:nil repeats:YES];
+}
 @end

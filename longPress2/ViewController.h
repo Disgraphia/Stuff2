@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    NSTimer *timer;
+    float x;
+}
+- (IBAction)buttonEnd:(id)sender;
+- (IBAction)buttonBegan:(id)sender;
+
 
 @end
